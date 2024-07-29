@@ -1,8 +1,9 @@
-#include <ESP8266>
-#include <WiFi.h>
 #include <HTTPClient.h>
 #include <Servo.h>
-
+#include <ESP8266WiFi.h>
+#include <SPI.h>
+#include <MFRC522.h>
+#include <NewPing.h>
 // Inisialisasi Servo
 Servo servo1;
 Servo servo2;
